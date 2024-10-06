@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.bg-container {
+    background-color: #07080c;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 34px;
+  }
+  .description {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 24px;
+  }
+  .caption {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .btn1 {
+    border-radius: 4px;
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    cursor:pointer;
+    margin:10px;
+ 
+  }
+  .btn2 {
+    border-radius: 4px;
+    border-width: 1px;
+    height: 30px;
+    width: 80px;
+    background-color:transparent;
+    color: #94a3b8;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-color: #94a3b8;
+    cursor:pointer;
+    margin:10px;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .image{
+    height:150px;
+    width:150px;
+  }
+  @media screen and (min-width:768px){
+    .image{
+        height:50%;
+        width:50%;
+    }
+    .caption{
+        font-size:22px;
+    }
+    .description{
+        font-size:28px;
+    }
+  }
